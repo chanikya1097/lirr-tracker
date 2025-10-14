@@ -23,4 +23,7 @@ Export to Sheets
 High-Level Architecture
 The architecture is designed to process data in a continuous, real-time flow from the source API to the final dashboard.
 
+![Alt text for the image](img/Architecture.png)
+
+
 ![Alt text for the image](./img/architecture.png)
