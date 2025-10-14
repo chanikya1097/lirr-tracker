@@ -54,4 +54,4 @@ Phase 6: Visualization (Metabase)
 1.	Metabase Setup: Start the Metabase server locally and connect it to your local MySQL database.
 2.	Dashboard Creation: Build a dashboard with key visualizations, such as a map of current train locations, a table of recent updates, and charts showing active trains per route.
 ________________________________________
-![alt text](Architecture-1.png)
+![alt text](img/Architecture.png)
