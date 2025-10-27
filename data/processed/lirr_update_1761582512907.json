@@ -1,0 +1,10 @@
+{
+  "trip_id": "GO102_25_1926",
+  "route_id": "",
+  "vehicle_id": "7112_1926",
+  "latitude": 40.733642578125,
+  "longitude": -73.46902465820312,
+  "current_status": "IN_TRANSIT_TO",
+  "timestamp": 1761582032,
+  "stop_id": "59"
+}

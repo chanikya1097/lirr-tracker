@@ -1,0 +1,10 @@
+{
+  "trip_id": "GO102_25_457_2852_METS",
+  "route_id": "",
+  "vehicle_id": "7661_457",
+  "latitude": 40.78388595581055,
+  "longitude": -73.73143005371094,
+  "current_status": "IN_TRANSIT_TO",
+  "timestamp": 1761591880,
+  "stop_id": "120"
+}

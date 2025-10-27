@@ -1,0 +1,78 @@
+[0m11:47:46.463515 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AF857C4590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AF87227ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AF87227B10>]}
+
+
+============================== 11:47:46.483838 | 7b7cf037-32fe-49ae-b2fe-caf291fd2d73 ==============================
+[0m11:47:46.483838 [info ] [MainThread]: Running with dbt=1.7.19
+[0m11:47:46.487325 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\chani\\.dbt', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt init lirr_dbt_project', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m11:47:46.489064 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': WindowsPath('C:/Users/chani/.dbt')}
+[0m11:47:46.490285 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m11:47:46.494097 [debug] [MainThread]: Starter project path: C:\Users\chani\AppData\Local\Programs\Python\Python313\Lib\site-packages\dbt\include\starter_project
+[0m11:47:46.547696 [info ] [MainThread]: 
+Your new dbt project "lirr_dbt_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:47:46.549572 [info ] [MainThread]: Setting up your profile.
+[0m11:48:52.614055 [info ] [MainThread]: Profile lirr_dbt_project written to C:\Users\chani\.dbt\profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m11:48:52.614972 [debug] [MainThread]: Command `dbt init` succeeded at 11:48:52.614837 after 66.37 seconds
+[0m11:48:52.615508 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AF8068E9E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AF88C38050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AF88BE88D0>]}
+[0m11:48:52.616008 [debug] [MainThread]: Flushing usage events
+[0m12:00:38.466681 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000258C57A4590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000258C7207ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000258C7207B10>]}
+
+
+============================== 12:00:38.474172 | e46bcf62-c5e6-420b-ac8e-5ad79a0a4960 ==============================
+[0m12:00:38.474172 [info ] [MainThread]: Running with dbt=1.7.19
+[0m12:00:38.475127 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\chani\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m12:00:38.475881 [info ] [MainThread]: dbt version: 1.7.19
+[0m12:00:38.476442 [info ] [MainThread]: python version: 3.13.5
+[0m12:00:38.476879 [info ] [MainThread]: python path: C:\Users\chani\AppData\Local\Programs\Python\Python313\python.exe
+[0m12:00:38.477319 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m12:00:38.680644 [info ] [MainThread]: Using profiles dir at C:\Users\chani\.dbt
+[0m12:00:38.681307 [info ] [MainThread]: Using profiles.yml file at C:\Users\chani\.dbt\profiles.yml
+[0m12:00:38.682094 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\chani\OneDrive\Documents\PyhtonTraning\lirr-tracker\dbt_project\dbt_project.yml
+[0m12:00:38.683447 [info ] [MainThread]: adapter type: mysql
+[0m12:00:38.683860 [info ] [MainThread]: adapter version: 1.7.0
+[0m12:00:38.684272 [info ] [MainThread]: Configuration:
+[0m12:00:38.684616 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m12:00:38.706816 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m12:00:38.707510 [info ] [MainThread]: Required dependencies:
+[0m12:00:38.708170 [debug] [MainThread]: Executing "git --help"
+[0m12:00:38.752142 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m12:00:38.752807 [debug] [MainThread]: STDERR: "b''"
+[0m12:00:38.753353 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m12:00:38.753919 [info ] [MainThread]: Connection:
+[0m12:00:38.754555 [info ] [MainThread]:   server: 127.0.0.1
+[0m12:00:38.755108 [info ] [MainThread]:   unix_socket: None
+[0m12:00:38.755766 [info ] [MainThread]:   port: 3306
+[0m12:00:38.756240 [info ] [MainThread]:   database: None
+[0m12:00:38.756675 [info ] [MainThread]:   schema: lirr_db
+[0m12:00:38.757109 [info ] [MainThread]:   user: root
+[0m12:00:38.757661 [info ] [MainThread]: Registered adapter: mysql=1.7.0
+[0m12:00:38.758270 [debug] [MainThread]: Acquiring new mysql connection 'debug'
+[0m12:00:38.758537 [debug] [MainThread]: Using mysql connection "debug"
+[0m12:00:38.758769 [debug] [MainThread]: On debug: select 1 as id
+[0m12:00:38.759741 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m12:00:38.778876 [debug] [MainThread]: SQL status: SUCCESS 1 in 0.0 seconds
+[0m12:00:38.780133 [debug] [MainThread]: On debug: Close
+[0m12:00:38.780725 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m12:00:38.781234 [info ] [MainThread]: [31m1 check failed:[0m
+[0m12:00:38.781731 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\chani\OneDrive\Documents\PyhtonTraning\lirr-tracker\dbt_project\dbt_project.yml> not found
+
+[0m12:00:38.783070 [debug] [MainThread]: Command `dbt debug` failed at 12:00:38.782848 after 0.46 seconds
+[0m12:00:38.783505 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m12:00:38.783908 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000258C8AEBE10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000258C8BBA9F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000258C8B649E0>]}
+[0m12:00:38.784359 [debug] [MainThread]: Flushing usage events
