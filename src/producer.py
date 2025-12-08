@@ -9,8 +9,8 @@ from kafka import KafkaProducer
 # MTA API Key is NO LONGER NEEDED
 CONFIG = {
     'KAFKA_BOOTSTRAP_SERVER': 'pkc-oxqxx9.us-east-1.aws.confluent.cloud:9092',
-    'KAFKA_API_KEY': '2DD5LRB2GHYE7O3K',
-    'KAFKA_API_SECRET': 'cflt/dKBWrnU0bx+bnXG8zZKMHy6KfRAhOCrMp83Le7uy0ba6KnG1WJqSTJI7IEQ',
+    'KAFKA_API_KEY': '',
+    'KAFKA_API_SECRET': '',
     'KAFKA_TOPIC': 'lirr_realtime_updates'
 }
 
